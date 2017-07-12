@@ -1,0 +1,22 @@
+#basic{
+  color: red;
+}
+
+h1{
+  color: black;
+  font-weight: bold;
+}
+
+h2{
+  color: black;
+  font-weight: bold;
+}
+ p{
+   text-indent: 2cm;
+   font-family: "Open sans", sans-serif;
+ }
+ ol{
+   list-style-position: outside;
+   line-height: inherit;
+   list-style-type: armenian;
+ }
