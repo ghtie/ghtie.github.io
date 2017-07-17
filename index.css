@@ -1,22 +1,77 @@
-#basic{
-  color: red;
+/*Homepage CSS*/
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0;
+  margin:0;
+  position: absolute;
 }
 
+/*Navigation bar*/
+.navigation {
+  padding: 0 30px;
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family:'Veranda', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  /*line-height: 50px*/
+
+}
+.navigation a:link {
+    color: white;
+    text-decoration: none;
+}
+.navigation a:visited {
+    color: white;
+    text-decoration: none;
+}
+.navigation a:hover {
+    opacity: 0.7;
+}
+header{
+  float: left;
+  width: 100%;
+  background-color: #FA8072;
+}
 h1{
-  color: black;
-  font-weight: bold;
+  font-family: "Snell Roundhand", cursive;
+  font-style: italic;
+  font-size: 48px;
+  color: white;
+  float: left;
 }
+#nav{
+  list-style: none;
+  padding: 0;
+  margin:20px 0 0 0;
+  float:right;
+  display: inline-block;
+}
+#aboutMe{
+  padding: 10px;
 
-h2{
-  color: black;
-  font-weight: bold;
 }
- p{
-   text-indent: 2cm;
-   font-family: "Open sans", sans-serif;
- }
- ol{
-   list-style-position: outside;
-   line-height: inherit;
-   list-style-type: armenian;
- }
+#mySummer{
+  padding: 10px;
+  display: inline-block;
+}
+/*Picture slideshow*/
+
+
+/*About Me CSS*/
+.header {
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+}
+#sectionOne {
+  border: 5px;
+  margin: auto;
+  width: 800px;
+  display: block;
+  overflow: auto;
+  text-align: center;
+}
