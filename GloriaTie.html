@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Gloria Tie's Profile</title>
+  <title>About Me</title>
   <link rel="stylesheet" href="index.css">
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="index.js"></script>
 </head>
-<body text-align:center>
-    <div id="sectionOne">
-      <header>Gloria Tie</header>
-      <h2>Summary</h2>
-      <p>I live in Cleveland, Ohio and enjoy taking hikes and trying new foods!</p>
+<body id = "aboutMeBody">
+  <div class = "navigation">
+    <header>
+      <h1>Gloria</h1>
+      <ul id = "nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="GloriaTie.html">ABOUT ME</a></li>
+        <li><a href="MySummer.html">SUMMER 2017</a></li>
+      </ul>
+      <header>
+  </div>
 
-      <h2>Hometown</h2>
-      <p>Cleveland, Ohio</p>
+      <div id="sectionOne">
+        <h2>Summary</h2>
+        <p>I live in Cleveland, Ohio and enjoy taking hikes and trying new foods!</p>
 
-      <h2>University</h2>
-      <p>Case Western Reserve University</p>
+        <h2>Hometown</h2>
+        <p>Cleveland, Ohio</p>
 
-      <h2>Other Profiles</h2>
-        <p><a href="">Instagram</a></p>
+        <h2>University</h2>
+        <p>Case Western Reserve University</p>
+
+        <!--<p><a class = "profiles" href="https://plus.google.com/u/0/113842955786987647351">Google+</a>
+        <a class = "profiles" href="https://www.instagram.com/ggtie/">Instagram</a></p>-->
 
 
-      <h2>My Favorite Movies</h2>
+        <h2>My Favorite Movies</h2>
         <p>Hunt for the Wilderpeople</p>
         <p>Matrix</p>
-        <p>Forest Gump</p>
+        <p>Chronicles of Narnia: The Lion, The Witch and the Wardrobe</p>
 
 
-      <h2>My Favorite Books</h2>
+        <h2>My Favorite Books</h2>
         <p>Harry Potter Series</p>
         <p>Flatland</p>
-        <p>The Help</p>
+        <p>Ender's Game</p>
 
-      <h2>My Favorite Songs</h2>
-        <p>Magic Man-Paris</p>
-        <p>Oh Wonder-Lose Yourself</p>
-    </div>
+        <h2>My Favorite Songs</h2>
+        <p>Magic Man—Paris</p>
+        <p>Primary X Beenzino X Suran—Mannequin</p>
+      </div>
 
-    <div id = "commentSection" text-align:center>
-      <h2>Comments<h2>
-      <div id = "displayComments"></div>
-      <h2>Leave a Comment</h2>
+      <h2>Other Profiles</h2>
+      <a href="https://plus.google.com/u/0/113842955786987647351">
+        <img border="0" alt="W3Schools" src="file:///Users/demouser/Desktop/google__round_logo%20(1).png" width="50" height="50">
+      </a>
 
-      <form action >
-        <textarea id = "commentArea"></textarea>
-        <input id="submitButton" value = "Submit Comment">
-      </form>
-    </div>
-</body>
+      <a href="https://www.instagram.com/ggtie/">
+        <img border="0" alt="Instagram" src="http://imageog.flaticon.com/icons/png/512/69/69366.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" width="100" height="50">
+      </a>
+
+      <div id = "commentSection" text-align:center>
+          <h2>Leave a Comment</h2>
+
+          <form action>
+            <textarea id = "commentArea"></textarea><br>
+            <input type = "button" id="submitButton" value = "Submit Comment">
+          </form>
+          <h2>Comments<h2>
+          <div id = "displayComments"></div>
+     </div>
+  </body>
 </html>
