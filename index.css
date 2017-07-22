@@ -16,7 +16,7 @@ img{
 
 /*Navigation bar*/
 .navigation {
-  max-width: 5000px;
+  width: 100%;
   margin: 0 auto;
   font-family:'Veranda', sans-serif;
   font-weight: bold;
