@@ -15,8 +15,15 @@ function removeBorder(){
 
 function postComment(event){
   comment = $("#commentArea").val();
-  $("#commentArea").val("");
-  $("#displayComments").append(comment+BR);
+  if (comment != ""){
+    $("#commentArea").val("");
+    $("#displayComments").append(comment+BR);
+  }
+  else {
+
+  }
+
+
 
   //selct div, append into p
 }

@@ -19,6 +19,13 @@ body{
   opacity: 50%;
 }
 
+/*caption display*/
+#piccaption{
+  z-index: 1;
+  color: white;
+  position: relative;
+}
+
 /*Navigation bar*/
 .navigation {
   background: none;
@@ -34,11 +41,11 @@ body{
 header{
   float: left;
   width: 100%;
-  background: none;
+  background-color: #181818;;
 }
 
 h1{
-  font-family: "Snell Roundhand", cursive;
+  font-family:'Veranda', sans-serif;
   font-style: italic;
   font-size: 48px;
   float: left;
@@ -71,16 +78,21 @@ li{
 /*About Me CSS*/
 #sectionOne{
     padding-top: 200px;
+    background-color: white;
 }
+p {
+  color: #181818;
+}
+
 h2{
-  color: white;
+  color: #181818;
 }
 #commentArea{
   width: 500px;
   height: 100px;
 }
 #submitButton{
-  color: #9F6164;
+  color: #181818;
   border-style: outset;
 
 }
@@ -93,11 +105,7 @@ h2{
   font-size: 16px;
 }
 
-/*#sectionOne {
-  border: 5px;
-  margin: auto;
-  width: 800px;
-  display: block;
-  overflow: auto;
-  text-align: center;
-}*/
+#copyright{
+  color: white;
+  font-family:'Veranda', sans-serif;
+}
